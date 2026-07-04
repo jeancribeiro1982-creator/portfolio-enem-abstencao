@@ -1,0 +1,130 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+body {
+    background-color: #00254D; /* Azul Marinho Oficial ENEM */
+    color: #f8fafc;
+    min-height: 100vh;
+    padding-bottom: 20px;
+    position: relative;
+    overflow-x: hidden;
+}
+.background-blur {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(96, 165, 250, 0.15) 0%, rgba(0, 37, 77, 0) 70%); /* Glow azul claro */
+    top: -100px;
+    left: -100px;
+    filter: blur(80px);
+    z-index: -1;
+}
+.dashboard-container {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+.glass {
+    background: rgba(0, 40, 85, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.glass:hover { border-color: rgba(96, 165, 250, 0.5); }
+
+header { margin-bottom: 20px; }
+.header-titles {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.logo { width: 160px; filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.5)); }
+.header-titles h1 { font-size: 2rem; font-weight: 800; color: #fff; }
+.header-titles p { color: #93c5fd; margin-top: 5px; }
+
+/* Filtro Dropdown */
+.filter-bar {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.filter-bar label { font-weight: 600; color: #FFD100; }
+.filter-bar select {
+    background: #001A33;
+    color: #fff;
+    border: 1px solid #60A5FA;
+    padding: 8px 12px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.filter-bar select:focus { border-color: #FFD100; }
+.tip-text { font-size: 0.85rem; color: #93c5fd; font-style: italic; }
+.reset-btn {
+    background: rgba(255, 209, 0, 0.15);
+    border: 1px solid #FFD100;
+    color: #FFD100;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: auto;
+    transition: 0.2s;
+}
+.reset-btn:hover { background: rgba(255, 209, 0, 0.3); }
+
+/* KPIs */
+.kpi-container { display: flex; gap: 15px; flex-wrap: wrap; }
+.kpi-card { flex: 1; min-width: 150px; padding: 15px 20px; }
+.kpi-card h3 { font-size: 0.85rem; color: #93c5fd; font-weight: 600; text-transform: uppercase; }
+.kpi-card h2 { font-size: 2rem; font-weight: 800; color: #fff; margin-top: 5px; }
+.kpi-card .subtitle { color: #60a5fa; font-size: 0.8rem; margin-top: 2px; }
+
+.highlight h2 { color: #FFD100; text-shadow: 0 0 10px rgba(255, 209, 0, 0.3); }
+.warning h2 { color: #f87171; }
+
+.variance { font-size: 0.9rem; font-weight: 600; margin-top: 6px; padding: 2px 6px; border-radius: 4px; display: inline-block; }
+.var-up { background: rgba(248, 113, 113, 0.2); color: #fca5a5; } /* Subiu evasão é ruim */
+.var-down { background: rgba(74, 222, 128, 0.2); color: #86efac; } /* Caiu evasão é bom */
+.var-neutral { color: #93c5fd; }
+
+.rank-item { font-size: 0.95rem; font-weight: 600; margin-top: 5px; color: #fff; }
+.rank-item span { color: #FFD100; }
+
+.dashboard-layout {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 20px;
+    height: 700px;
+}
+.map-section { padding: 15px; height: 100%; }
+.map-canvas { width: 100%; height: 100%; }
+
+.charts-section { display: flex; flex-direction: column; gap: 15px; height: 100%; }
+.chart-row { display: flex; gap: 15px; flex: 1; }
+.chart-box { padding: 15px; display: flex; flex-direction: column; }
+.chart-box h3 { font-size: 1rem; margin-bottom: 5px; color: #e0f2fe; }
+.chart { flex: 1; width: 100%; min-height: 150px; }
+.flex-1 { flex: 1; }
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 15px;
+    text-align: center;
+}
+.footer-content { color: #60a5fa; font-size: 0.85rem; line-height: 1.5; }
+.footer-content strong { color: #93c5fd; }
+
+@media (max-width: 1200px) {
+    .dashboard-layout { grid-template-columns: 1fr; height: auto; }
+    .map-section { height: 600px; }
+    .chart-row { flex-direction: column; }
+    .chart-box { height: 300px; }
+}

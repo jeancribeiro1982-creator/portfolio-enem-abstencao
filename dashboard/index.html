@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstenção ENEM | Painel Analítico Oficial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+<body>
+    <div class="background-blur"></div>
+    <div class="dashboard-container">
+        <header>
+            <div class="header-titles">
+                <img src="logo.svg" alt="Logo ENEM" class="logo">
+                <div>
+                    <h1>Painel Analítico de Abstenção - Edição 2023</h1>
+                    <p>Mapeamento Sociodemográfico e Evasão Georreferenciada</p>
+                </div>
+            </div>
+            
+            <div class="filter-bar glass">
+                <label for="uf-select">📍 Filtrar por Estado:</label>
+                <select id="uf-select">
+                    <option value="BR">Brasil (Visão Nacional)</option>
+                    <option value="AC">Acre (AC)</option>
+                    <option value="AL">Alagoas (AL)</option>
+                    <option value="AP">Amapá (AP)</option>
+                    <option value="AM">Amazonas (AM)</option>
+                    <option value="BA">Bahia (BA)</option>
+                    <option value="CE">Ceará (CE)</option>
+                    <option value="DF">Distrito Federal (DF)</option>
+                    <option value="ES">Espírito Santo (ES)</option>
+                    <option value="GO">Goiás (GO)</option>
+                    <option value="MA">Maranhão (MA)</option>
+                    <option value="MT">Mato Grosso (MT)</option>
+                    <option value="MS">Mato Grosso do Sul (MS)</option>
+                    <option value="MG">Minas Gerais (MG)</option>
+                    <option value="PA">Pará (PA)</option>
+                    <option value="PB">Paraíba (PB)</option>
+                    <option value="PR">Paraná (PR)</option>
+                    <option value="PE">Pernambuco (PE)</option>
+                    <option value="PI">Piauí (PI)</option>
+                    <option value="RJ">Rio de Janeiro (RJ)</option>
+                    <option value="RN">Rio Grande do Norte (RN)</option>
+                    <option value="RS">Rio Grande do Sul (RS)</option>
+                    <option value="RO">Rondônia (RO)</option>
+                    <option value="RR">Roraima (RR)</option>
+                    <option value="SC">Santa Catarina (SC)</option>
+                    <option value="SP">São Paulo (SP)</option>
+                    <option value="SE">Sergipe (SE)</option>
+                    <option value="TO">Tocantins (TO)</option>
+                </select>
+                <span class="tip-text">Você também pode interagir clicando diretamente no mapa.</span>
+                <button class="reset-btn" id="btn-reset" style="display:none;">Limpar Filtro</button>
+            </div>
+
+            <div class="kpi-container">
+                <div class="kpi-card glass">
+                    <h3 id="lbl-local">Brasil</h3>
+                    <p class="subtitle">Região Filtrada</p>
+                </div>
+                <div class="kpi-card glass">
+                    <h3>Inscritos</h3>
+                    <h2 id="kpi-inscritos">--</h2>
+                </div>
+                <div class="kpi-card glass warning">
+                    <h3>Ausentes</h3>
+                    <h2 id="kpi-ausentes">--</h2>
+                </div>
+                <div class="kpi-card glass highlight">
+                    <h3>Taxa de Abstenção</h3>
+                    <h2 id="kpi-taxa">--</h2>
+                    <p class="variance" id="var-taxa">--</p>
+                </div>
+                <div class="kpi-card glass rank">
+                    <h3>Extremos (UFs)</h3>
+                    <p class="rank-item">🔴 Maior: <span id="kpi-maior">--</span></p>
+                    <p class="rank-item">🟢 Menor: <span id="kpi-menor">--</span></p>
+                </div>
+            </div>
+        </header>
+
+        <main class="dashboard-layout">
+            <div class="map-section glass">
+                <div id="chart-map" class="map-canvas"></div>
+            </div>
+            
+            <div class="charts-section">
+                <div class="chart-row">
+                    <div class="chart-box glass flex-1">
+                        <h3>Desigualdade Escolar <span style="font-size:10px; font-weight:normal; color:#93c5fd;">(Censo Completo)</span></h3>
+                        <div id="chart-escola" class="chart"></div>
+                    </div>
+                    <div class="chart-box glass flex-1">
+                        <h3>Gênero</h3>
+                        <div id="chart-genero" class="chart"></div>
+                    </div>
+                </div>
+                
+                <div class="chart-row">
+                    <div class="chart-box glass flex-1">
+                        <h3>Impacto da Renda</h3>
+                        <div id="chart-renda" class="chart"></div>
+                    </div>
+                    <div class="chart-box glass flex-1">
+                        <h3>Cor / Raça</h3>
+                        <div id="chart-raca" class="chart"></div>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-box glass flex-1">
+                        <h3>Abstenção por Faixa Etária</h3>
+                        <div id="chart-idade" class="chart"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <p><strong>Fonte de Dados:</strong> INEP - Microdados do ENEM (2023) e Pesquisa Pós-Prova de Evasão</p>
+                <p><strong>Última Atualização:</strong> Julho / 2023 | <strong>Desenvolvido por:</strong> Analista de Dados (Projeto de Portfólio V.Final)</p>
+            </div>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

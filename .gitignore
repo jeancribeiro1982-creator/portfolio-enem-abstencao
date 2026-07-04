@@ -1,0 +1,23 @@
+# Dados Brutos
+data/*.zip
+data/raw_inep/
+data/*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# NodeJS
+node_modules/

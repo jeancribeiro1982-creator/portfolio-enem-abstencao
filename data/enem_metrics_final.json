@@ -1,0 +1,2886 @@
+{
+  "BR": {
+    "kpis": {
+      "inscritos": 3933955,
+      "ausentes": 1106714,
+      "taxa_abstencao": 28.1,
+      "taxa_anterior": 28.3,
+      "diff_taxa": -0.2
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.4
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 24.7
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 16.1
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 33.0
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 37.9
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 33.2
+      },
+      {
+        "cor": "Branca",
+        "taxa": 23.1
+      },
+      {
+        "cor": "Preta",
+        "taxa": 33.8
+      },
+      {
+        "cor": "Parda",
+        "taxa": 30.7
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 29.9
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 37.1
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 31.9
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 24.9
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 4.1
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 25.2
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 41.5
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 50.1
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 12.8
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 49.6
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 28.0
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 28.4
+      }
+    ]
+  },
+  "AC": {
+    "kpis": {
+      "inscritos": 24274,
+      "ausentes": 8066,
+      "taxa_abstencao": 33.2,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 16.7
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 27.0
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 21.0
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 36.3
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 43.2
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 34.3
+      },
+      {
+        "cor": "Branca",
+        "taxa": 26.8
+      },
+      {
+        "cor": "Preta",
+        "taxa": 35.8
+      },
+      {
+        "cor": "Parda",
+        "taxa": 34.8
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 32.7
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 41.1
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 37.2
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 24.7
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 3.0
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 28.1
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 44.5
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 52.0
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 13.7
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 48.8
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 33.2
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 33.3
+      }
+    ]
+  },
+  "AL": {
+    "kpis": {
+      "inscritos": 82760,
+      "ausentes": 24930,
+      "taxa_abstencao": 30.1,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 11.0
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 21.4
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 13.3
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 33.7
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 39.5
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 34.3
+      },
+      {
+        "cor": "Branca",
+        "taxa": 24.2
+      },
+      {
+        "cor": "Preta",
+        "taxa": 33.7
+      },
+      {
+        "cor": "Parda",
+        "taxa": 31.7
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 34.0
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 38.5
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 31.1
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 32.5
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 2.3
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 26.1
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 39.2
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 47.9
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 13.7
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 47.6
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 30.0
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 30.4
+      }
+    ]
+  },
+  "AM": {
+    "kpis": {
+      "inscritos": 92916,
+      "ausentes": 40678,
+      "taxa_abstencao": 43.8,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 22.1
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 35.9
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 26.8
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 46.9
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 51.6
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 49.4
+      },
+      {
+        "cor": "Branca",
+        "taxa": 36.3
+      },
+      {
+        "cor": "Preta",
+        "taxa": 44.8
+      },
+      {
+        "cor": "Parda",
+        "taxa": 45.2
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 44.6
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 49.6
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 47.4
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 40.1
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 8.2
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 39.6
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 53.4
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 59.1
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 27.9
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 59.4
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 43.2
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 44.6
+      }
+    ]
+  },
+  "AP": {
+    "kpis": {
+      "inscritos": 28807,
+      "ausentes": 9256,
+      "taxa_abstencao": 32.1,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 15.9
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 26.5
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 19.3
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 35.1
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 41.9
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 34.1
+      },
+      {
+        "cor": "Branca",
+        "taxa": 27.2
+      },
+      {
+        "cor": "Preta",
+        "taxa": 35.2
+      },
+      {
+        "cor": "Parda",
+        "taxa": 33.2
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 35.7
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 24.1
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 37.6
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 17.6
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 4.5
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 22.8
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 44.3
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 52.4
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 11.1
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 46.5
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 32.9
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 31.0
+      }
+    ]
+  },
+  "BA": {
+    "kpis": {
+      "inscritos": 324268,
+      "ausentes": 93502,
+      "taxa_abstencao": 28.8,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.5
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 22.5
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 14.3
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 31.4
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 36.2
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 30.4
+      },
+      {
+        "cor": "Branca",
+        "taxa": 21.6
+      },
+      {
+        "cor": "Preta",
+        "taxa": 33.0
+      },
+      {
+        "cor": "Parda",
+        "taxa": 29.2
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 31.3
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 33.8
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 32.9
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 20.8
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 2.4
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 22.9
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 40.3
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 50.0
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 11.4
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 49.4
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 29.2
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 28.2
+      }
+    ]
+  },
+  "CE": {
+    "kpis": {
+      "inscritos": 241960,
+      "ausentes": 60977,
+      "taxa_abstencao": 25.2,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.0
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 20.3
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 13.6
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 27.1
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 30.5
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 34.3
+      },
+      {
+        "cor": "Branca",
+        "taxa": 19.8
+      },
+      {
+        "cor": "Preta",
+        "taxa": 28.7
+      },
+      {
+        "cor": "Parda",
+        "taxa": 26.8
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 29.8
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 30.4
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 28.5
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 22.6
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 3.1
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 24.5
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 40.4
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 49.2
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 10.5
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 48.9
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 24.2
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 26.5
+      }
+    ]
+  },
+  "DF": {
+    "kpis": {
+      "inscritos": 72975,
+      "ausentes": 19725,
+      "taxa_abstencao": 27.0,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 15.6
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 26.0
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 17.1
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 34.3
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 42.7
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 31.2
+      },
+      {
+        "cor": "Branca",
+        "taxa": 21.9
+      },
+      {
+        "cor": "Preta",
+        "taxa": 32.3
+      },
+      {
+        "cor": "Parda",
+        "taxa": 29.8
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 31.7
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 34.5
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 33.7
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 19.2
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 3.3
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 21.8
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 40.5
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 49.4
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 10.6
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 48.8
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 26.9
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 27.3
+      }
+    ]
+  },
+  "ES": {
+    "kpis": {
+      "inscritos": 73724,
+      "ausentes": 21408,
+      "taxa_abstencao": 29.0,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 14.8
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 26.3
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 16.7
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 35.3
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 47.0
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 34.4
+      },
+      {
+        "cor": "Branca",
+        "taxa": 23.0
+      },
+      {
+        "cor": "Preta",
+        "taxa": 36.0
+      },
+      {
+        "cor": "Parda",
+        "taxa": 31.8
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 39.5
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 39.9
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 35.6
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 20.6
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 5.1
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 23.7
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 46.2
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 53.0
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 12.0
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 52.2
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 29.1
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 28.9
+      }
+    ]
+  },
+  "GO": {
+    "kpis": {
+      "inscritos": 149110,
+      "ausentes": 46330,
+      "taxa_abstencao": 31.1,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.4
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 27.2
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 17.4
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 38.4
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 47.0
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 44.8
+      },
+      {
+        "cor": "Branca",
+        "taxa": 24.5
+      },
+      {
+        "cor": "Preta",
+        "taxa": 37.6
+      },
+      {
+        "cor": "Parda",
+        "taxa": 33.7
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 37.1
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 43.9
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 29.9
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 36.0
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 5.0
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 33.9
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 46.6
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 53.7
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 16.7
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 54.6
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 29.3
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 33.7
+      }
+    ]
+  },
+  "MA": {
+    "kpis": {
+      "inscritos": 165756,
+      "ausentes": 47232,
+      "taxa_abstencao": 28.5,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 14.8
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 22.9
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 15.4
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 30.2
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 34.3
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 33.3
+      },
+      {
+        "cor": "Branca",
+        "taxa": 24.1
+      },
+      {
+        "cor": "Preta",
+        "taxa": 31.5
+      },
+      {
+        "cor": "Parda",
+        "taxa": 29.1
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 29.7
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 32.9
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 31.5
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 23.2
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 2.9
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 25.9
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 41.0
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 48.8
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 14.0
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 48.0
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 28.4
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 28.6
+      }
+    ]
+  },
+  "MG": {
+    "kpis": {
+      "inscritos": 358575,
+      "ausentes": 95649,
+      "taxa_abstencao": 26.7,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.1
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 24.3
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 16.1
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 33.2
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 40.4
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 29.5
+      },
+      {
+        "cor": "Branca",
+        "taxa": 21.7
+      },
+      {
+        "cor": "Preta",
+        "taxa": 34.2
+      },
+      {
+        "cor": "Parda",
+        "taxa": 29.3
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 33.7
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 35.4
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 30.0
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 22.6
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 2.6
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 23.2
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 39.7
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 49.1
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 11.4
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 49.6
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 26.5
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 26.9
+      }
+    ]
+  },
+  "MS": {
+    "kpis": {
+      "inscritos": 47455,
+      "ausentes": 13994,
+      "taxa_abstencao": 29.5,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.4
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 26.9
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 16.1
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 37.2
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 45.2
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 34.3
+      },
+      {
+        "cor": "Branca",
+        "taxa": 24.4
+      },
+      {
+        "cor": "Preta",
+        "taxa": 36.4
+      },
+      {
+        "cor": "Parda",
+        "taxa": 33.6
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 25.0
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 39.9
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 35.2
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 22.4
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 4.4
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 28.2
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 47.0
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 55.2
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 13.7
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 53.8
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 29.5
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 29.5
+      }
+    ]
+  },
+  "MT": {
+    "kpis": {
+      "inscritos": 63912,
+      "ausentes": 19594,
+      "taxa_abstencao": 30.7,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 15.7
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 29.2
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 20.9
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 38.0
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 45.6
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 36.7
+      },
+      {
+        "cor": "Branca",
+        "taxa": 24.7
+      },
+      {
+        "cor": "Preta",
+        "taxa": 36.1
+      },
+      {
+        "cor": "Parda",
+        "taxa": 32.9
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 36.3
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 48.8
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 35.3
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 26.2
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 4.4
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 28.2
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 48.1
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 54.5
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 15.4
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 52.9
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 30.0
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 31.7
+      }
+    ]
+  },
+  "PA": {
+    "kpis": {
+      "inscritos": 229162,
+      "ausentes": 66995,
+      "taxa_abstencao": 29.2,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 12.6
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 23.7
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 15.0
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 31.6
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 35.4
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 29.3
+      },
+      {
+        "cor": "Branca",
+        "taxa": 23.5
+      },
+      {
+        "cor": "Preta",
+        "taxa": 31.8
+      },
+      {
+        "cor": "Parda",
+        "taxa": 30.5
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 31.2
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 31.9
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 33.3
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 20.0
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 2.6
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 22.3
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 40.1
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 48.7
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 11.0
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 47.8
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 29.6
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 28.7
+      }
+    ]
+  },
+  "PB": {
+    "kpis": {
+      "inscritos": 124511,
+      "ausentes": 33522,
+      "taxa_abstencao": 26.9,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 12.0
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 20.4
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 13.9
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 29.6
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 32.9
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 32.3
+      },
+      {
+        "cor": "Branca",
+        "taxa": 22.3
+      },
+      {
+        "cor": "Preta",
+        "taxa": 31.0
+      },
+      {
+        "cor": "Parda",
+        "taxa": 28.8
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 30.7
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 31.1
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 28.5
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 26.7
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 1.5
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 23.5
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 37.3
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 44.7
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 10.7
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 46.0
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 26.7
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 27.2
+      }
+    ]
+  },
+  "PE": {
+    "kpis": {
+      "inscritos": 218859,
+      "ausentes": 59342,
+      "taxa_abstencao": 27.1,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.0
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 20.6
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 14.2
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 29.8
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 35.0
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 33.7
+      },
+      {
+        "cor": "Branca",
+        "taxa": 22.5
+      },
+      {
+        "cor": "Preta",
+        "taxa": 31.3
+      },
+      {
+        "cor": "Parda",
+        "taxa": 28.7
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 34.1
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 30.4
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 30.7
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 22.1
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 3.0
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 24.9
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 39.5
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 48.0
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 11.9
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 46.7
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 26.8
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 27.6
+      }
+    ]
+  },
+  "PI": {
+    "kpis": {
+      "inscritos": 99639,
+      "ausentes": 26065,
+      "taxa_abstencao": 26.2,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 12.5
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 19.6
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 12.3
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 28.4
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 31.4
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 30.4
+      },
+      {
+        "cor": "Branca",
+        "taxa": 20.9
+      },
+      {
+        "cor": "Preta",
+        "taxa": 29.4
+      },
+      {
+        "cor": "Parda",
+        "taxa": 27.2
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 30.1
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 24.5
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 30.0
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 19.5
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 1.8
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 22.4
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 40.0
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 48.9
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 10.2
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 48.0
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 26.3
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 25.9
+      }
+    ]
+  },
+  "PR": {
+    "kpis": {
+      "inscritos": 166506,
+      "ausentes": 44184,
+      "taxa_abstencao": 26.5,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 15.5
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 25.2
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 16.8
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 35.6
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 46.3
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 32.2
+      },
+      {
+        "cor": "Branca",
+        "taxa": 23.8
+      },
+      {
+        "cor": "Preta",
+        "taxa": 35.3
+      },
+      {
+        "cor": "Parda",
+        "taxa": 31.8
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 22.1
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 40.8
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 30.4
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 25.1
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 7.6
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 28.4
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 42.9
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 50.2
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 14.7
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 51.3
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 26.1
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 27.2
+      }
+    ]
+  },
+  "RJ": {
+    "kpis": {
+      "inscritos": 282296,
+      "ausentes": 86014,
+      "taxa_abstencao": 30.5,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 14.8
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 26.0
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 17.6
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 37.5
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 47.5
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 33.0
+      },
+      {
+        "cor": "Branca",
+        "taxa": 25.2
+      },
+      {
+        "cor": "Preta",
+        "taxa": 36.7
+      },
+      {
+        "cor": "Parda",
+        "taxa": 33.7
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 38.3
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 37.5
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 35.3
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 27.4
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 4.3
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 26.0
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 44.1
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 52.9
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 12.2
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 51.2
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 30.9
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 29.8
+      }
+    ]
+  },
+  "RN": {
+    "kpis": {
+      "inscritos": 100706,
+      "ausentes": 25131,
+      "taxa_abstencao": 25.0,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.8
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 21.2
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 14.7
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 27.3
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 32.3
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 30.9
+      },
+      {
+        "cor": "Branca",
+        "taxa": 22.1
+      },
+      {
+        "cor": "Preta",
+        "taxa": 28.9
+      },
+      {
+        "cor": "Parda",
+        "taxa": 26.2
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 30.0
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 28.1
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 29.0
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 15.7
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 1.6
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 16.6
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 33.0
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 44.0
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 8.6
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 42.6
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 25.0
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 24.9
+      }
+    ]
+  },
+  "RO": {
+    "kpis": {
+      "inscritos": 36038,
+      "ausentes": 11631,
+      "taxa_abstencao": 32.3,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 15.6
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 27.9
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 19.7
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 37.6
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 45.9
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 36.5
+      },
+      {
+        "cor": "Branca",
+        "taxa": 26.8
+      },
+      {
+        "cor": "Preta",
+        "taxa": 36.1
+      },
+      {
+        "cor": "Parda",
+        "taxa": 33.9
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 38.0
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 44.5
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 35.8
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 28.3
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 3.3
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 29.1
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 46.5
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 51.9
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 15.1
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 50.0
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 31.7
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 33.2
+      }
+    ]
+  },
+  "RR": {
+    "kpis": {
+      "inscritos": 9639,
+      "ausentes": 3049,
+      "taxa_abstencao": 31.6,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 16.4
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 27.3
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 17.3
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 38.6
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 47.1
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 28.9
+      },
+      {
+        "cor": "Branca",
+        "taxa": 24.0
+      },
+      {
+        "cor": "Preta",
+        "taxa": 32.4
+      },
+      {
+        "cor": "Parda",
+        "taxa": 33.6
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 37.0
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 41.3
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 34.6
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 27.7
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 5.1
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 27.8
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 44.0
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 56.1
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 18.4
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 49.5
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 31.4
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 32.1
+      }
+    ]
+  },
+  "RS": {
+    "kpis": {
+      "inscritos": 159919,
+      "ausentes": 41481,
+      "taxa_abstencao": 25.9,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 12.7
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 24.1
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 16.4
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 33.5
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 42.2
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 32.4
+      },
+      {
+        "cor": "Branca",
+        "taxa": 23.9
+      },
+      {
+        "cor": "Preta",
+        "taxa": 35.9
+      },
+      {
+        "cor": "Parda",
+        "taxa": 30.9
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 28.1
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 39.4
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 31.6
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 18.6
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 3.7
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 21.2
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 39.7
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 48.0
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 9.8
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 48.2
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 26.1
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 25.7
+      }
+    ]
+  },
+  "SC": {
+    "kpis": {
+      "inscritos": 91263,
+      "ausentes": 24470,
+      "taxa_abstencao": 26.8,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.9
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 26.6
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 17.4
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 38.6
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 48.7
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 34.9
+      },
+      {
+        "cor": "Branca",
+        "taxa": 23.3
+      },
+      {
+        "cor": "Preta",
+        "taxa": 40.9
+      },
+      {
+        "cor": "Parda",
+        "taxa": 35.6
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 34.0
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 50.3
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 31.3
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 25.4
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 6.0
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 26.6
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 46.1
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 52.3
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 12.6
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 53.3
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 26.3
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 27.6
+      }
+    ]
+  },
+  "SE": {
+    "kpis": {
+      "inscritos": 65540,
+      "ausentes": 16518,
+      "taxa_abstencao": 25.2,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 11.9
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 19.5
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 13.4
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 27.6
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 31.8
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 25.6
+      },
+      {
+        "cor": "Branca",
+        "taxa": 19.6
+      },
+      {
+        "cor": "Preta",
+        "taxa": 29.1
+      },
+      {
+        "cor": "Parda",
+        "taxa": 26.4
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 30.1
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 32.2
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 28.8
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 18.9
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 2.4
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 21.0
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 37.3
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 45.4
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 9.8
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 45.5
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 25.1
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 25.4
+      }
+    ]
+  },
+  "SP": {
+    "kpis": {
+      "inscritos": 590767,
+      "ausentes": 157534,
+      "taxa_abstencao": 26.7,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 11.8
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 25.7
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 15.1
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 37.2
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 47.3
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 31.8
+      },
+      {
+        "cor": "Branca",
+        "taxa": 22.6
+      },
+      {
+        "cor": "Preta",
+        "taxa": 35.4
+      },
+      {
+        "cor": "Parda",
+        "taxa": 32.4
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 19.0
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 34.9
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 30.3
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 27.5
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 5.0
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 25.7
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 43.5
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 52.1
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 13.7
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 52.5
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 26.5
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 26.8
+      }
+    ]
+  },
+  "TO": {
+    "kpis": {
+      "inscritos": 32618,
+      "ausentes": 9437,
+      "taxa_abstencao": 28.9,
+      "taxa_anterior": null,
+      "diff_taxa": null
+    },
+    "renda": [
+      {
+        "faixa": "+5 SM",
+        "taxa": 13.4
+      },
+      {
+        "faixa": "1 a 3 SM",
+        "taxa": 24.2
+      },
+      {
+        "faixa": "3 a 5 SM",
+        "taxa": 17.0
+      },
+      {
+        "faixa": "Até 1 SM",
+        "taxa": 34.2
+      },
+      {
+        "faixa": "Sem Renda",
+        "taxa": 40.2
+      }
+    ],
+    "raca": [
+      {
+        "cor": "Não Declarado",
+        "taxa": 28.9
+      },
+      {
+        "cor": "Branca",
+        "taxa": 22.9
+      },
+      {
+        "cor": "Preta",
+        "taxa": 33.9
+      },
+      {
+        "cor": "Parda",
+        "taxa": 29.9
+      },
+      {
+        "cor": "Amarela",
+        "taxa": 30.3
+      },
+      {
+        "cor": "Indígena",
+        "taxa": 42.5
+      }
+    ],
+    "escola": [
+      {
+        "tipo": "Não Declarado",
+        "taxa": 31.6
+      },
+      {
+        "tipo": "Pública",
+        "taxa": 26.0
+      },
+      {
+        "tipo": "Privada",
+        "taxa": 7.3
+      }
+    ],
+    "idade": [
+      {
+        "faixa": "18-20",
+        "taxa": 28.7
+      },
+      {
+        "faixa": "21-25",
+        "taxa": 46.7
+      },
+      {
+        "faixa": "26-30",
+        "taxa": 53.4
+      },
+      {
+        "faixa": "< 18 anos",
+        "taxa": 14.9
+      },
+      {
+        "faixa": "> 30 anos",
+        "taxa": 53.4
+      }
+    ],
+    "genero": [
+      {
+        "sexo": "Feminino",
+        "taxa": 28.2
+      },
+      {
+        "sexo": "Masculino",
+        "taxa": 30.1
+      }
+    ]
+  }
+}

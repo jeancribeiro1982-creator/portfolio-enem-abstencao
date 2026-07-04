@@ -4,8 +4,8 @@
       "inscritos": 3933955,
       "ausentes": 1106714,
       "taxa_abstencao": 28.1,
-      "taxa_anterior": 28.3,
-      "diff_taxa": -0.2
+      "taxa_anterior": 28.1,
+      "diff_taxa": 0.0
     },
     "renda": [
       {
@@ -107,8 +107,8 @@
       "inscritos": 24274,
       "ausentes": 8066,
       "taxa_abstencao": 33.2,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 31.6,
+      "diff_taxa": 1.6
     },
     "renda": [
       {
@@ -210,8 +210,8 @@
       "inscritos": 82760,
       "ausentes": 24930,
       "taxa_abstencao": 30.1,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 28.0,
+      "diff_taxa": 2.1
     },
     "renda": [
       {
@@ -313,8 +313,8 @@
       "inscritos": 92916,
       "ausentes": 40678,
       "taxa_abstencao": 43.8,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 43.2,
+      "diff_taxa": 0.6
     },
     "renda": [
       {
@@ -416,8 +416,8 @@
       "inscritos": 28807,
       "ausentes": 9256,
       "taxa_abstencao": 32.1,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 31.5,
+      "diff_taxa": 0.6
     },
     "renda": [
       {
@@ -519,8 +519,8 @@
       "inscritos": 324268,
       "ausentes": 93502,
       "taxa_abstencao": 28.8,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 26.9,
+      "diff_taxa": 1.9
     },
     "renda": [
       {
@@ -622,8 +622,8 @@
       "inscritos": 241960,
       "ausentes": 60977,
       "taxa_abstencao": 25.2,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 26.8,
+      "diff_taxa": -1.6
     },
     "renda": [
       {
@@ -725,8 +725,8 @@
       "inscritos": 72975,
       "ausentes": 19725,
       "taxa_abstencao": 27.0,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 27.4,
+      "diff_taxa": -0.4
     },
     "renda": [
       {
@@ -828,8 +828,8 @@
       "inscritos": 73724,
       "ausentes": 21408,
       "taxa_abstencao": 29.0,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 28.7,
+      "diff_taxa": 0.3
     },
     "renda": [
       {
@@ -931,8 +931,8 @@
       "inscritos": 149110,
       "ausentes": 46330,
       "taxa_abstencao": 31.1,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 31.7,
+      "diff_taxa": -0.6
     },
     "renda": [
       {
@@ -1034,8 +1034,8 @@
       "inscritos": 165756,
       "ausentes": 47232,
       "taxa_abstencao": 28.5,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 28.0,
+      "diff_taxa": 0.5
     },
     "renda": [
       {
@@ -1137,8 +1137,8 @@
       "inscritos": 358575,
       "ausentes": 95649,
       "taxa_abstencao": 26.7,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 26.9,
+      "diff_taxa": -0.2
     },
     "renda": [
       {
@@ -1240,8 +1240,8 @@
       "inscritos": 47455,
       "ausentes": 13994,
       "taxa_abstencao": 29.5,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 31.8,
+      "diff_taxa": -2.3
     },
     "renda": [
       {
@@ -1343,8 +1343,8 @@
       "inscritos": 63912,
       "ausentes": 19594,
       "taxa_abstencao": 30.7,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 31.6,
+      "diff_taxa": -0.9
     },
     "renda": [
       {
@@ -1446,8 +1446,8 @@
       "inscritos": 229162,
       "ausentes": 66995,
       "taxa_abstencao": 29.2,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 29.1,
+      "diff_taxa": 0.1
     },
     "renda": [
       {
@@ -1549,8 +1549,8 @@
       "inscritos": 124511,
       "ausentes": 33522,
       "taxa_abstencao": 26.9,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 26.0,
+      "diff_taxa": 0.9
     },
     "renda": [
       {
@@ -1652,8 +1652,8 @@
       "inscritos": 218859,
       "ausentes": 59342,
       "taxa_abstencao": 27.1,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 27.2,
+      "diff_taxa": -0.1
     },
     "renda": [
       {
@@ -1755,8 +1755,8 @@
       "inscritos": 99639,
       "ausentes": 26065,
       "taxa_abstencao": 26.2,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 25.3,
+      "diff_taxa": 0.9
     },
     "renda": [
       {
@@ -1858,8 +1858,8 @@
       "inscritos": 166506,
       "ausentes": 44184,
       "taxa_abstencao": 26.5,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 28.6,
+      "diff_taxa": -2.1
     },
     "renda": [
       {
@@ -1961,8 +1961,8 @@
       "inscritos": 282296,
       "ausentes": 86014,
       "taxa_abstencao": 30.5,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 28.3,
+      "diff_taxa": 2.2
     },
     "renda": [
       {
@@ -2064,8 +2064,8 @@
       "inscritos": 100706,
       "ausentes": 25131,
       "taxa_abstencao": 25.0,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 25.7,
+      "diff_taxa": -0.7
     },
     "renda": [
       {
@@ -2167,8 +2167,8 @@
       "inscritos": 36038,
       "ausentes": 11631,
       "taxa_abstencao": 32.3,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 33.5,
+      "diff_taxa": -1.2
     },
     "renda": [
       {
@@ -2270,8 +2270,8 @@
       "inscritos": 9639,
       "ausentes": 3049,
       "taxa_abstencao": 31.6,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 35.8,
+      "diff_taxa": -4.2
     },
     "renda": [
       {
@@ -2373,8 +2373,8 @@
       "inscritos": 159919,
       "ausentes": 41481,
       "taxa_abstencao": 25.9,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 28.0,
+      "diff_taxa": -2.1
     },
     "renda": [
       {
@@ -2476,8 +2476,8 @@
       "inscritos": 91263,
       "ausentes": 24470,
       "taxa_abstencao": 26.8,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 27.2,
+      "diff_taxa": -0.4
     },
     "renda": [
       {
@@ -2579,8 +2579,8 @@
       "inscritos": 65540,
       "ausentes": 16518,
       "taxa_abstencao": 25.2,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 24.2,
+      "diff_taxa": 1.0
     },
     "renda": [
       {
@@ -2682,8 +2682,8 @@
       "inscritos": 590767,
       "ausentes": 157534,
       "taxa_abstencao": 26.7,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 27.0,
+      "diff_taxa": -0.3
     },
     "renda": [
       {
@@ -2785,8 +2785,8 @@
       "inscritos": 32618,
       "ausentes": 9437,
       "taxa_abstencao": 28.9,
-      "taxa_anterior": null,
-      "diff_taxa": null
+      "taxa_anterior": 30.5,
+      "diff_taxa": -1.6
     },
     "renda": [
       {

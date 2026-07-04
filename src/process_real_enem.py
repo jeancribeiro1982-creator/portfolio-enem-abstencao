@@ -135,9 +135,13 @@ for uf, data in db_raw.items():
     insc = data['kpis']['inscritos']
     aus = data['kpis']['ausentes']
     taxa = round((aus / insc * 100), 1) if insc > 0 else 0
-    # Usando o dado oficial do Inep para 2022 no Brasil (28.3%)
-    # Para os Estados (UF), não temos a base de 2022, então assumimos integridade (None)
-    taxa_anterior = 28.3 if uf == 'BR' else None
+    # Usando dados reais de 2022 extraídos
+    taxa_anterior = None
+    if os.path.exists('data/taxas_2022.json'):
+        with open('data/taxas_2022.json', 'r') as f2:
+            t_2022 = json.load(f2)
+            taxa_anterior = t_2022.get(uf, None)
+
     diff_taxa = round(taxa - taxa_anterior, 1) if taxa_anterior is not None else None
     
     db_final[uf] = {

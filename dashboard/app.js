@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             kpiAusentes.innerText = data.kpis.ausentes.toLocaleString('pt-BR');
             kpiTaxa.innerText = `${data.kpis.taxa_abstencao}%`;
             
-            // Variance Logic
+            // Variance Logic - Taxa
             const diff = data.kpis.diff_taxa;
             if (diff === null || diff === undefined) {
                 varTaxa.innerHTML = `- Dados de 2022 indisponíveis`;
@@ -86,8 +86,40 @@ document.addEventListener("DOMContentLoaded", async () => {
                 varTaxa.innerHTML = `▼ ${diff.toFixed(1)}% vs Ano Anterior`;
                 varTaxa.className = "variance var-down";
             } else {
-                varTaxa.innerHTML = `- Estável`;
+                varTaxa.innerHTML = `- Estável vs Ano Anterior`;
                 varTaxa.className = "variance var-neutral";
+            }
+
+            // Variance Logic - Inscritos (Absolute)
+            const varInsc = document.getElementById('var-inscritos');
+            const diffInsc = data.kpis.diff_inscritos;
+            if (diffInsc === null || diffInsc === undefined) {
+                varInsc.innerHTML = ``;
+            } else if (diffInsc > 0) {
+                varInsc.innerHTML = `▲ +${diffInsc.toLocaleString('pt-BR')} vs Ano Anterior`;
+                varInsc.className = "variance var-light-up";
+            } else if (diffInsc < 0) {
+                varInsc.innerHTML = `▼ ${diffInsc.toLocaleString('pt-BR')} vs Ano Anterior`;
+                varInsc.className = "variance var-light-down";
+            } else {
+                varInsc.innerHTML = `- Estável`;
+                varInsc.className = "variance var-light-neutral";
+            }
+
+            // Variance Logic - Ausentes (Absolute)
+            const varAus = document.getElementById('var-ausentes');
+            const diffAus = data.kpis.diff_ausentes;
+            if (diffAus === null || diffAus === undefined) {
+                varAus.innerHTML = ``;
+            } else if (diffAus > 0) {
+                varAus.innerHTML = `▲ +${diffAus.toLocaleString('pt-BR')} vs Ano Anterior`;
+                varAus.className = "variance var-light-down"; // Mais ausentes é ruim (vermelho suave)
+            } else if (diffAus < 0) {
+                varAus.innerHTML = `▼ ${diffAus.toLocaleString('pt-BR')} vs Ano Anterior`;
+                varAus.className = "variance var-light-up"; // Menos ausentes é bom (verde suave)
+            } else {
+                varAus.innerHTML = `- Estável`;
+                varAus.className = "variance var-light-neutral";
             }
 
             btnReset.style.display = regionKey === 'BR' ? 'none' : 'block';

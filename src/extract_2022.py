@@ -36,9 +36,13 @@ with zipfile.ZipFile(zip_path, 'r') as z:
                 db_raw_2022[uf]['ausentes'] += row['sum']
                 
         for uf, data in db_raw_2022.items():
-            insc = data['inscritos']
-            aus = data['ausentes']
-            taxas_2022[uf] = round((aus / insc * 100), 1) if insc > 0 else None
+            insc = int(data['inscritos'])
+            aus = int(data['ausentes'])
+            taxas_2022[uf] = {
+                'inscritos': insc,
+                'ausentes': aus,
+                'taxa': round((aus / insc * 100), 1) if insc > 0 else None
+            }
 
 with open('data/taxas_2022.json', 'w') as f:
     json.dump(taxas_2022, f)

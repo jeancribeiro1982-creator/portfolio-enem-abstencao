@@ -94,6 +94,10 @@ header { margin-bottom: 20px; }
 .var-down { background: rgba(74, 222, 128, 0.2); color: #86efac; } /* Caiu evasão é bom */
 .var-neutral { color: #93c5fd; }
 
+.var-light-up { color: #86efac; font-size: 0.8rem; font-weight: 400; padding: 0; }
+.var-light-down { color: #fca5a5; font-size: 0.8rem; font-weight: 400; padding: 0; }
+.var-light-neutral { color: #93c5fd; font-size: 0.8rem; font-weight: 400; padding: 0; }
+
 .rank-item { font-size: 0.95rem; font-weight: 600; margin-top: 5px; color: #fff; }
 .rank-item span { color: #FFD100; }
 

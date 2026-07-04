@@ -137,12 +137,19 @@ for uf, data in db_raw.items():
     taxa = round((aus / insc * 100), 1) if insc > 0 else 0
     # Usando dados reais de 2022 extraídos
     taxa_anterior = None
+    insc_anterior = None
+    aus_anterior = None
     if os.path.exists('data/taxas_2022.json'):
         with open('data/taxas_2022.json', 'r') as f2:
             t_2022 = json.load(f2)
-            taxa_anterior = t_2022.get(uf, None)
+            if uf in t_2022:
+                taxa_anterior = t_2022[uf]['taxa']
+                insc_anterior = t_2022[uf]['inscritos']
+                aus_anterior = t_2022[uf]['ausentes']
 
     diff_taxa = round(taxa - taxa_anterior, 1) if taxa_anterior is not None else None
+    diff_insc = insc - insc_anterior if insc_anterior is not None else None
+    diff_aus = aus - aus_anterior if aus_anterior is not None else None
     
     db_final[uf] = {
         "kpis": {
@@ -150,7 +157,9 @@ for uf, data in db_raw.items():
             "ausentes": int(aus),
             "taxa_abstencao": taxa,
             "taxa_anterior": taxa_anterior,
-            "diff_taxa": diff_taxa
+            "diff_taxa": diff_taxa,
+            "diff_inscritos": diff_insc,
+            "diff_ausentes": diff_aus
         },
         "renda": [{"faixa": k, "taxa": round((v['ausentes']/v['inscritos']*100),1) if v['inscritos']>0 else 0} for k, v in data['renda'].items()],
         "raca": [{"cor": k, "taxa": round((v['ausentes']/v['inscritos']*100),1) if v['inscritos']>0 else 0} for k, v in data['raca'].items()],

@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const brazilGeoJson = await geoResponse.json();
         echarts.registerMap('brazil', brazilGeoJson);
 
-        // Ler do JSON final
-        const dataResponse = await fetch('../data/enem_metrics_final.json');
+        // Ler do JSON final (v2 force cache clear)
+        const dataResponse = await fetch('../data/enem_metrics_final.json?v=2');
         const appData = await dataResponse.json();
 
         // Calcular min/max para a escala do mapa dinamicamente

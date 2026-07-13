@@ -72,11 +72,11 @@ O fluxo de dados segue o pipeline: **Extract & Load (INEP) -> Transform (Pandas 
 
 ```mermaid
 graph LR
-    A[Microdados INEP (1.7GB)] -->|chunksize=200k| B(Pandas ETL)
-    B --> C[Tratamento NAs & Encoding]
-    C --> D[(enem_metrics_final.json)]
-    D --> E[ECharts Dashboard]
-    E --> F[GitHub Pages]
+    A["Microdados INEP (1.7GB)"] -->|"chunksize=200k"| B("Pandas ETL")
+    B --> C["Tratamento NAs & Encoding"]
+    C --> D[("enem_metrics_final.json")]
+    D --> E["ECharts Dashboard"]
+    E --> F["GitHub Pages"]
 ```
 
 ```text

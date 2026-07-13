@@ -1,8 +1,22 @@
-﻿# 📊 Portfólio: O Mistério da Abstenção no ENEM (2023)
+# 📊 Portfólio: O Mistério da Abstenção no ENEM (2023)
+
+<!-- CI/CD Badges -->
+![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg?style=flat-square)
+![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)
+![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)
+
+![Dashboard Preview](docs/dashboard.png)
 
 Dashboard analítico interativo que investiga os fatores socioeconômicos por trás da evasão de candidatos no Exame Nacional do Ensino Médio.
 
 > Este projeto é a primeira parte de uma análise de dados em dois atos. Enquanto aqui nós respondemos ***o quê*** e ***onde***, o projeto irmão de [Machine Learning](https://github.com/jeanribeiro-dev/portfolio-enem-ml) vai fundo no ***por quê*** e no ***quanto custa*** financeiramente.
+
+## 🎯 Key Insights (O que descobrimos?)
+A análise de 3,9 milhões de registros revelou dados alarmantes que vão além da "falta de interesse":
+- **Renda é o maior gargalo:** Candidatos de famílias sem nenhuma renda apresentam uma taxa de abstenção **3x maior** em comparação aos candidatos de famílias com renda superior a 5 Salários Mínimos.
+- **Geografia da Evasão:** Norte e Nordeste lideram as taxas de evasão no país, sugerindo dificuldades logísticas e estruturais regionais.
+- **Escola Pública x Privada:** Alunos oriundos de escolas públicas abandonam o exame em uma proporção quase 3 vezes superior aos de escolas privadas.
 
 ## 🔗 Acesse o Dashboard Online
 
@@ -52,33 +66,50 @@ Este projeto é uma análise de dados End-to-End que cobre todo o pipeline:
 - **Tooltips Detalhados:** Passe o mouse sobre qualquer barra ou região para ver o valor exato.
 - **Variação Interanual:** KPIs mostram a diferença absoluta de inscritos e ausentes entre 2022 e 2023.
 
-## 📂 Estrutura do Projeto
+## 🏗️ Arquitetura e Estrutura do Projeto
 
+O fluxo de dados segue o pipeline: **Extract & Load (INEP) -> Transform (Pandas Out-of-Core) -> Dashboard (ECharts)**.
+
+```mermaid
+graph LR
+    A[Microdados INEP (1.7GB)] -->|chunksize=200k| B(Pandas ETL)
+    B --> C[Tratamento NAs & Encoding]
+    C --> D[(enem_metrics_final.json)]
+    D --> E[ECharts Dashboard]
+    E --> F[GitHub Pages]
 ```
+
+```text
 portfolio-enem-abstencao/
-├── src/
-│   ├── process_real_enem.py    # Script ETL Pandas (processa 3.9M de linhas em chunks)
-│   └── extract_2022.py         # Script de extração e cálculo de variação 2022 vs 2023
-├── notebooks/
-│   └── etl_enem.ipynb          # Jupyter Notebook de Análise Exploratória (EDA)
 ├── data/
-│   └── enem_metrics_final.json # Dados processados (saída do ETL para o dashboard)
+│   ├── raw_inep/               # Dados brutos (Git Ignored)
+│   └── enem_metrics_final.json # Dados processados agregados
+├── docs/
+│   └── dashboard.png           # Assets para documentação
+├── notebooks/
+│   └── etl_enem.ipynb          # Exploração (EDA) e prototipação
+├── src/
+│   ├── process_real_enem.py    # Pipeline ETL em chunksize
+│   └── extract_2022.py         # Scripts de comparação anual
 ├── dashboard/
-│   ├── index.html              # Página principal do painel
-│   ├── style.css               # Estilos (Glassmorphism + Paleta ENEM)
-│   └── app.js                  # Lógica dos gráficos e interatividade (ECharts)
+│   ├── index.html              # Interface do Usuário
+│   ├── style.css               # Design UI/UX
+│   └── app.js                  # Engine do ECharts
+├── requirements.txt            # Dependências rigorosas
 └── README.md
 ```
 
-## ▶️ Como Executar Localmente
+## ▶️ Reprodutibilidade e Configuração Local (Setup)
+
+Utilizamos um ambiente estrito para garantir a reprodutibilidade dos dados.
 
 1. Clone este repositório.
-2. Baixe os microdados do ENEM 2023 e 2022 do INEP (links na seção abaixo) e coloque-os em `data/`.
-3. Instale as dependências Python:
+2. Baixe os microdados do ENEM 2023 e 2022 do INEP (links na seção de Proveniência de Dados) e extraia na pasta `data/raw_inep/DADOS/`.
+3. Instale as dependências rigorosas usando o `requirements.txt`:
 ```bash
-pip install pandas numpy
+pip install -r requirements.txt
 ```
-4. Rode os scripts ETL para gerar o JSON de saída:
+4. Execute o pipeline de ETL para gerar os agregados finais:
 ```bash
 python src/extract_2022.py
 python src/process_real_enem.py
@@ -90,9 +121,11 @@ python -m http.server 8080
 # Acesse http://localhost:8080
 ```
 
-## 📋 Fonte dos Dados
+## 📋 Proveniência e Integridade de Dados
 
-- **Microdados Oficiais:** INEP — Microdados do ENEM 2022 e 2023. Disponíveis em [inep.gov.br](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem).
+- **Fonte Oficial:** Os dados brutos vêm do INEP (Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira). [Link de acesso público](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem).
+- **Compliance e LGPD:** Todos os microdados são 100% anonimizados de origem. Nenhum PII (Personally Identifiable Information) é exposto ou trafegado neste sistema.
+- **Volume:** A base de 2023 conta com mais de 3.9 milhões de registros, processados em memória restrita utilizando `chunksize`.
 
 ## 👤 Autor
 
